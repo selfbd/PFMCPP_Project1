@@ -11,7 +11,6 @@ Purpose:  This project will get you thinking correctly about choosing good names
  1) write out 10 nouns in the space provided below.
     Choose nouns that do things.  
     avoid choosing nouns that have things done TO them.
-    e
  
  2) for each of the 10 nouns, write out 3 actions it might perform, in plain english.
     a) AVOID state-checking actions, like "Car has a horn".  i.e.
@@ -31,7 +30,6 @@ Purpose:  This project will get you thinking correctly about choosing good names
                 action: consume electricity
                 action: burn out and destroy filament.
 
-        
  3) write out how you'd call that action in pseudo code, in the space after the plain-english action
  
  4) If the action requires multiple words, use camelCaseToNameIt
@@ -56,88 +54,95 @@ arm.flex();                             // 3)
 //  action 3:   the arm rotates conter-clockwise
 arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
+//  1) 
+//  Noun:       fan
+//  action 1:   rotate clockwise
+                fan.rotateClockwise();
+//  action 2:   rotate counter clockwise
+                fan.rotateCounterClockwise();
+//  action 3:   cool room
+                fan.coolRoom();
 
-//  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       engine
+//  action 1:   start
+                engine.start();
+//  action 2:   idle
+                engine.idle();
+//  action 3:   stop
+                engine.stop();
  
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       smart phone
+//  action 1:   display UI
+                phone.displayUi();
+//  action 2:   take photo
+                phone.takePhoto();
+//  action 3:   open app  
+                phone.openApp();
  
 //  4)
-//  Noun:
-//  action 1:
+//  Noun:       barcode scanner
+//  action 1:   scan barcode
+                scanner.scanBarcode();
+//  action 2:   interpret barcode
+                scanner.interretBarcode();
+//  action 3:   send scanned characters
+                scanner.sendScannedCharacters();
 
-//  action 2:
-
-//  action 3:
- 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       printer
+//  action 1:   scan
+                printer.scan();
+//  action 2:   copy
+                printer.copy();
+//  action 3:   print
+                printer.print();
 
-//  action 2:
-
-//  action 3:
- 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun:       bus
+//  action 1:   move forward
+                bus.moveForward();
+//  action 2:   move backward
+                bus.moveBackward();
+//  action 3:   stop
+                bus.stop();
 
-//  action 2:
-
-//  action 3:
- 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       dishwasher
+//  action 1:   wash
+                dishwasher.wash();
+//  action 2:   rinse
+                dishwasher.rinse();
+//  action 3:   dry
+                dishwasher.dry();
  
 //  8)
-//  Noun:
-//  action 1:
+//  Noun:       motor
+//  action 1:   start
+                motor.start();
+//  action 2:   rotate clockwise
+                motor.rotateClockwise();
+//  action 3:   rotate counter clockwise
+                motor.rotateCounterClockwise();
 
-//  action 2:
+//  9)          
+//  Noun:       lawnmower
+//  action 1:   start
+                lawnmower.start();
+//  action 2:   rotate blades
+                lawnmower.rotateBlades();
+//  action 3:   propel forward
+                lawnmower.propelForward();
 
-//  action 3:
- 
-//  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
-
+//  Noun:       garage door opener
+//  action 1:   open garage door
+                opener.openGarageDoor();
+//  action 2:   close garage door
+                opener.closeGarageDoor();
+//  action 3:   illuminate garage   
+                opener.illuminateGarageDoor();
 
 #endif
 
